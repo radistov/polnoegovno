@@ -1,0 +1,34 @@
+{
+    "telegram_token": "YOUR_BOT_TOKEN_HERE",
+    "telegram_chat_id": 123456789,
+    
+    "deepseek_api_key": "sk-your-deepseek-api-key",
+    "deepseek_model": "deepseek-chat",
+    "use_ai_autoresponder": true,
+    
+    "response_prompt": "Ты - фрилансер, который пишет отклики на заказы. Напиши заинтересованный отклик на заказ. Используй ТОЛЬКО информацию, которая предоставлена о фрилансере. НЕ ВЫДУМЫВАЙ опыт, навыки, портфолио или достижения. Если информации о фрилансере нет - просто напиши о заинтересованности в проекте и готовности обсудить детали. Отклик должен быть кратким (2-3 предложения) и деловым.",
+    
+    "user_profile": {
+        "name": "",
+        "skills": "",
+        "experience": "",
+        "portfolio": "",
+        "email": "",
+        "phone": "",
+        "current_position": "",
+        "education": ""
+    },
+    
+    "auto_apply": false,
+    "auto_apply_min_budget": 10000,
+    "auto_apply_max_per_day": 10,
+    "auto_apply_keywords": ["сайт", "бот"],
+    
+    "min_budget": 5000,
+    "keywords": ["сайт", "бот", "разработка", "лендинг", "парсер", "дизайн"],
+    "db_path": "orders.db",
+    "parse_interval": 300,
+    "ai_temperature": 0.7,
+    "ai_max_tokens": 500,
+    "ai_tone": "professional"
+}
