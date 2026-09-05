@@ -1,0 +1,46 @@
+# Скомпилированные файлы
+build/
+*.o
+*.so
+*.a
+freelance_parser
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+*.log
+parser.log
+
+# Конфигурация (содержит секретные ключи)
+config.json
+
+# Скриншоты
+screenshots/
+*.png
+*.jpg
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Временные файлы
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
